@@ -1,0 +1,37 @@
+The goal of this exercise is to simulate the creation of a report, 
+by working with two datasets, and drawing some basic insights. 
+
+QUESTIONS:
+
+1. how many campaigns spent on more than 4 days?
+2. which sources reported more "junk" than "noise"?
+3. how many source B conversions were there for campaigns targeting NY?
+4. what was the total cost per view for all ads of type video, 
+    truncated to two decimals?
+5. what combination of state and hair color had the best (lowest) CPM?
+
+DETAILS:
+
+- a campaign has an audience, and is unique on ID
+- an ad belongs to a campaign, has a type, and is unique on ID
+- impressions in source1 are for the entire campaign
+- stats in source2 are for the ad date
+- {'a':17, 'action':'views'} means source A had 17 views 
+- cost per view should only include ads of type VIDEO
+- cost per view = video spend / video views
+- CPM = spend / impressions * 1000
+
+DELIVERABLES:
+
+    a. your answers in a .txt file
+    b. your code with instructions on how to run
+    c. your original source1.csv and source2.csv, so we have the data needed
+        to re-create your answers
+    d. bonus - a run time for your solution :)
+
+NOTES:
+
+In addition to correct answers, We are looking for data structures that would 
+allow us to solve any number of questions efficiently, not just these in 
+particular.  
+
