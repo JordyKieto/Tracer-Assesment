@@ -1,0 +1,14 @@
+How many campaigns spent on more than 4 days?
+Answer: 3289
+
+Which sources reported more "junk" than "noise"?
+Answer: ['C', 'J', 'H']
+
+How many source B conversions were there for campaigns targeting NY
+Answer: 110775
+
+What was the total cost per view for all ads of type video, truncated to two decimals?¶
+Answer: $10.12
+
+What combination of state and hair color had the best (lowest) CPM?¶
+Answer: IL_pink
